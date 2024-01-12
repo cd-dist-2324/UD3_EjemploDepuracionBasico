@@ -8,7 +8,6 @@ public class Contador {
 
     public void contar() {
         for (int i = 0; i < 100; i++) {
-            i=99;
             int resultado_antes_modificacion = resultado;
             resultado = resultado + i + 1;
             // ++
